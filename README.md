@@ -19,7 +19,7 @@ const url = 'https://raw.githubusercontent.com/ravenastar-js/shortlinks-scams/ma
 
 const fetch = require('node-fetch')
 
-const response = await fetch(url);
+const response = await fetch(`${url}`);
 const data = await response.json();
 
 console.log(data);
