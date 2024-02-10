@@ -13,17 +13,6 @@
 > **️Não pretendemos remover os links encurtados, mesmo que eles não direcionem mais para um(a) IP/página da web válida, pois são e ainda foram criados para phishing/scam. Se o link encurtado não é mais redirecionado para uma página maliciosa, favor informar para a equipe do projeto no [servidor de suporte](https://dsc.gg/t3guide).**
 ---
 
-### SCRIPT PARA PUXAR AS INFORMAÇÕES DA BLOCKLIST
-```js
-const blocklist = 'https://raw.githubusercontent.com/ravenastar-js/shortlinks-scams/main/scams/shortlinks.json'
-
-const fetch = require('node-fetch')
-
-const response = await fetch(`${blocklist}`);
-const data = await response.json();
-
-console.log(data);
-```
 > [!TIP]
 > Evidências que links encurtados foram usados para redirecionar para páginas maliciosas será registrada nesse repositório a fim de uma possível análise/investigação na veracidade das informações.
 
