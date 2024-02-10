@@ -1,7 +1,7 @@
 ### BLOCKLIST DE LINKS ENCURTADOS COMUMENTE ENVIADO POR GOLPISTA NO DISCORD
 
 > [!NOTE]
-> Projeto de blocklist que registrará links encurtados comumente enviados por golpista no Discord.
+> Registraremos links encurtados comumente enviados por golpista, veja o exemplo da imagem abaixo.
 
 ![img](https://i.imgur.com/6cEB0Tb.png)
 
