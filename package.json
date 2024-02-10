@@ -1,6 +1,6 @@
 {
   "name": "list-shortlink-scams",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "BLOCKLIST DE LINKS ENCURTADOS COMUMENTE ENVIADO POR GOLPISTA NO DISCORD",
   "main": "src/index.js",
   "scripts": {
