@@ -1,6 +1,5 @@
 {
 "shortlinks_scams":[
-  "qptr.ru/O0XI",
   "uclck.ru/RaUON",
   "go-link.ru/oLBMB",
   "surl.li/oebxu",
@@ -8,5 +7,14 @@
   "u.to/06AsIA",
   "gclnk.com/MrBjn00xpN",
   "qptr.ru/jC4v"
-  ]
+  ],
+  "provas": [
+    "uclck.ru/RaUON - https://urlscan.io/result/1b71fc4d-6ec4-4e8a-8bea-45a44ece2444/",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ] 
 }
