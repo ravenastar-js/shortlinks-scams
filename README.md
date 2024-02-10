@@ -14,7 +14,7 @@
 ---
 Exemplo:
 ```javascript
-const blocklist = require("shortlinks-scams")
+const blocklist = require("list-shortlink-scams")
 console.log(blocklist.shortlinks_scams)
 ```
 > [!TIP]
