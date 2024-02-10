@@ -14,11 +14,16 @@
 ---
 Exemplo:
 ```javascript
-const blocklist = require("list-shortlink-scams")
-console.log(blocklist.data)
-```
-<a href="https://www.npmjs.com/package/list-shortlink-scams"><img src="https://img.shields.io/badge/-%20?style=flat-square&logo=npm&logoColor=white&label=list-shortlink-scams&labelColor=c40404&color=c40404&link=https://www.npmjs.com/package/list-shortlink-scams"/></a> 
+const axios = require("axios")
+let url = `https://raw.githubusercontent.com/ravenastar-js/shortlinks-scams/main/scams/shortlinks.json`
 
+const fetchData = async () => {
+    const response = await axios.get(url);
+    return response.data;
+};
+
+fetchData()
+```
 > [!TIP]
 > Evidências que links encurtados foram usados para redirecionar para páginas maliciosas será registrada nesse repositório a fim de uma possível análise/investigação na veracidade das informações.
 
