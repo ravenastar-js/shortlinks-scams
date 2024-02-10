@@ -5,4 +5,4 @@
 
 ### INFORMAÇÕES SERÃO ADICIONADAS AOS POUCOS - BETA
 > [!IMPORTANT] 
-> **️Não pretendemos remover os links encurtados, mesmo que eles não direcionem mais para um IP/página da web válida, pois são e ainda foram criados para phishing/scam.**
+> **️Não pretendemos remover os links encurtados, mesmo que eles não direcionem mais para um IP/página da web válida, pois são e ainda foram criados para phishing/scam. Se o link encurtado não é mais redirecionado para uma página maliciosa, favor informar para a equipe do projeto no [servidor de suporte](https://dsc.gg/t3guide).**
