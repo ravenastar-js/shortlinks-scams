@@ -12,7 +12,11 @@
 > [!IMPORTANT] 
 > **️Não pretendemos remover os links encurtados, mesmo que eles não direcionem mais para um(a) IP/página da web válida, pois são e ainda foram criados para phishing/scam. Se o link encurtado não é mais redirecionado para uma página maliciosa, favor informar para a equipe do projeto no [servidor de suporte](https://dsc.gg/t3guide).**
 ---
-
+Exemplo:
+```javascript
+const blocklist = require("shortlinks-scams")
+console.log(blocklist.shortlinks_scams)
+```
 > [!TIP]
 > Evidências que links encurtados foram usados para redirecionar para páginas maliciosas será registrada nesse repositório a fim de uma possível análise/investigação na veracidade das informações.
 
