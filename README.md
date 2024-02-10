@@ -15,11 +15,11 @@
 
 ### SCRIPT PARA PUXAR AS INFORMAÇÕES DA BLOCKLIST
 ```js
-const url = 'https://raw.githubusercontent.com/ravenastar-js/shortlinks-scams/main/scams/shortlinks.json'
+const blocklist = 'https://raw.githubusercontent.com/ravenastar-js/shortlinks-scams/main/scams/shortlinks.json'
 
 const fetch = require('node-fetch')
 
-const response = await fetch(`${url}`);
+const response = await fetch(`${blocklist}`);
 const data = await response.json();
 
 console.log(data);
