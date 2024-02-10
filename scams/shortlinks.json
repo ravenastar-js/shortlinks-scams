@@ -11,6 +11,7 @@
     "qptr.ru/Fv0N",
     "cutt.ly/JwCKlqiM"
   ],
+  "regex_block_domain_shortlinks": "(https:\\/\\/www\\.|http:\\/\\/www\\.|https:\\/\\/|http:\\/\\/)(t\\.me|surl\\.li|u\\.to|t\\.co|gclnk\\.com|qptr\\.ru|uclck\\.ru|go-link\\.ru|envs\\.sh)",
   "result_urlscan": [
     "- [uclck.ru/RaUON](https://urlscan.io/result/1b71fc4d-6ec4-4e8a-8bea-45a44ece2444/)",
     "- [go-link.ru/oLBMB](https://urlscan.io/result/20f26e44-6fe8-4d3b-b4c6-be18c747d50b/)",
