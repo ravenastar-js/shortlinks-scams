@@ -17,7 +17,8 @@ Exemplo:
 const blocklist = require("list-shortlink-scams")
 console.log(blocklist.data)
 ```
-<img src="https://img.shields.io/badge/-%20?style=flat-square&logo=npm&logoColor=white&label=list-shortlink-scams&labelColor=c40404&color=c40404&link=https%3A%2F%2Fgithub.com%2Fravenastar-js%2Fshortlinks-scams"/></a> 
+<a href="https://www.npmjs.com/package/"><img src="https://img.shields.io/badge/-%20?style=flat-square&logo=npm&logoColor=white&label=list-shortlink-scams&labelColor=c40404&color=c40404&link=https://www.npmjs.com/package/list-shortlink-scams"/></a> 
+
 > [!TIP]
 > Evidências que links encurtados foram usados para redirecionar para páginas maliciosas será registrada nesse repositório a fim de uma possível análise/investigação na veracidade das informações.
 
