@@ -15,7 +15,7 @@
 Exemplo:
 ```javascript
 const blocklist = require("list-shortlink-scams")
-console.log(blocklist.shortlinks_scams)
+console.log(blocklist.data)
 ```
 > [!TIP]
 > Evidências que links encurtados foram usados para redirecionar para páginas maliciosas será registrada nesse repositório a fim de uma possível análise/investigação na veracidade das informações.
