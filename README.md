@@ -24,3 +24,6 @@ const data = await response.json();
 
 console.log(data);
 ```
+> [!TIP]
+> Evidências que links encurtados foram usados para redirecionar para páginas maliciosa afim de uma possível análise/investigação na veracidade das informações.
+
