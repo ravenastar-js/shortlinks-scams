@@ -1,10 +1,10 @@
 > [!CAUTION]
-> Não acessar links encurtados sem uma verificação prévia ou sem conhecimento, os links encurtados listados nesse projeto foram usados por golpistas e podem ser direcionados para páginas maliciosas. 
+> Não acessem links encurtados sem uma verificação prévia ou sem conhecimento, os links encurtados listados nesse projeto foram usados por golpistas e podem ser redirecionados para páginas maliciosas. 
 
 ### BLOCKLIST DE LINKS ENCURTADOS COMUMENTE ENVIADO POR GOLPISTA NO DISCORD
 
 > [!NOTE]
-> Registraremos links encurtados comumente enviados por golpista, veja o exemplo da imagem abaixo.
+> Registraremos nesse projeto links encurtados comumente enviados por golpista no Discord, veja o exemplo da imagem abaixo:
 
 ![img](https://i.imgur.com/6cEB0Tb.png)
 
