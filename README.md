@@ -1,5 +1,5 @@
 > [!CAUTION]
-> Não acessar links encurtados sem antes verificar, os links listados nesse projeto foram usados por golpistas e são direcionados para páginas maliciosas. 
+> Não acessar links encurtados sem uma verificação prévia ou sem conhecimento, os links listados nesse projeto foram usados por golpistas e são direcionados para páginas maliciosas. 
 
 ### BLOCKLIST DE LINKS ENCURTADOS COMUMENTE ENVIADO POR GOLPISTA NO DISCORD
 
