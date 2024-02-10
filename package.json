@@ -1,7 +1,7 @@
 {
   "name": "list-shortlink-scams",
   "version": "1.0.3",
-  "description": "",
+  "description": "BLOCKLIST DE LINKS ENCURTADOS COMUMENTE ENVIADO POR GOLPISTA NO DISCORD",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
