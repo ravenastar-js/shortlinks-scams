@@ -27,5 +27,5 @@ fetchData()
 <a href="https://www.npmjs.com/package/axios" target="_blank"><img src="https://img.shields.io/badge/-axios-c40404?style=flat-square&labelColor=c40404&logo=npm&logoColor=white&link=https://www.npmjs.com/package/axios"/></a>
 
 > [!TIP]
-> Evidências de que os links encurtados tem/tinha relação com páginas maliciosas será registrada na opção [`regex_block_domain_shortlinks`](/scams/shortlinks.json) desse projeto a fim de uma possível análise/investigação na veracidade das informações.
+> Evidências de que os links encurtados tem/tinha relação com páginas maliciosas será registrada na opção [regex_block_domain_shortlinks](/scams/shortlinks.json) desse projeto a fim de uma possível análise/investigação na veracidade das informações.
 
