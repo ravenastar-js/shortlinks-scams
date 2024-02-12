@@ -6,7 +6,7 @@
 > [!NOTE]
 > Registraremos nesse projeto links encurtados comumente enviados por golpista no Discord, veja o exemplo da imagem abaixo:
 
-![img](https://i.imgur.com/6cEB0Tb.png)
+![img](https://i.imgur.com/8KHcjBx.png)
 
 
 > [!IMPORTANT] 
