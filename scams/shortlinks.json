@@ -12,6 +12,12 @@
     "cutt.ly/JwCKlqiM",
     "qptr.ru/8Hmr"
   ],
+  "keywords_scams": [
+    "50$ from steam",
+    "10$ from steam",
+    "FRЕЕ GIFТ DISСОRD NIТRO",
+    "Free Steam gift"
+  ],
   "regex_block_domain_shortlinks": "(https:\\/\\/www\\.|http:\\/\\/www\\.|https:\\/\\/|http:\\/\\/)(t\\.me|surl\\.li|u\\.to|t\\.co|gclnk\\.com|qptr\\.ru|uclck\\.ru|go-link\\.ru|envs\\.sh)",
   "result_urlscan": [
     "- [uclck.ru/RaUON](https://urlscan.io/result/1b71fc4d-6ec4-4e8a-8bea-45a44ece2444/)",
