@@ -31,4 +31,20 @@ fetchData()
 
 > [!TIP]
 > Evidências de que os links encurtados tem/tinha relação com páginas maliciosas será registrada na opção [result_urlscan](/scams/shortlinks.json) desse projeto a fim de uma possível análise/investigação na veracidade das informações.
+---
 
+# SUMÁRIO 
+
+### shortlinks_scams
+- Links encurtados phishing/scam que golpistas enviaram no Discord. 
+
+### result_urlscan
+- Links encurtados phishing/scam que golpistas enviaram no Discord + evidência de que o link é golpe.
+
+### regex_block_domain_shortlinks
+- Lista de links encurtados populares que os golpistas usam pra burlar o sistema de detecção de phishing/scam do Discord, contém domínio de links encurtados com boa reputação ( empresas conhecias ) e reputação desconhecia.
+
+> golpistas também usam encurtadores de links de empresas conhecidas com boa reputação
+
+### keywords_scams
+- Palavras-chave usadas no spam de mensagens dos golpistas quando vão enviar os golpes.
