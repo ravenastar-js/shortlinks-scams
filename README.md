@@ -1,5 +1,8 @@
 > [!CAUTION]
-> Não acessem links encurtados sem uma verificação prévia ou sem conhecimento, os links encurtados listados nesse projeto foram usados por golpistas e podem ser redirecionados para páginas maliciosas. 
+> Não acessem links encurtados sem uma verificação prévia ou sem conhecimento, os links encurtados listados nesse projeto foram usados por golpistas e podem ser redirecionados para páginas maliciosas.
+
+> [!WARNING]  
+> OS LINKS SÃO ANALISADOS E ADICIONAMOS MANUALMENTE NESSE PROJETO EVITANDO FALSO POSITIVO, TODOS OS LINKS LISTADOS EM [shortlinks.json)](/scams/shortlinks.json) FORAM ENVIADOS POR GOLPISTAS EM SERVIDORES DE DISCORD.
 
 ### BLOCKLIST DE LINKS ENCURTADOS COMUMENTE ENVIADO POR GOLPISTA NO DISCORD
 
