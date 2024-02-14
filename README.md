@@ -36,10 +36,10 @@ fetchData()
 # SUMÁRIO 
 
 ### shortlinks_scams
-- Links encurtados phishing/scam que golpistas enviaram no Discord. 
+- Links encurtados phishing/scam enviados por golpistas no Discord. 
 
 ### result_urlscan
-- Links encurtados phishing/scam que golpistas enviaram no Discord + evidência de que o link é golpe.
+- Links encurtados phishing/scam enviados por golpistas no Discord + evidência de que o link é golpe.
 
 ### regex_block_domain_shortlinks
 - Lista de links encurtados populares que os golpistas usam pra burlar o sistema de detecção de phishing/scam do Discord, contém domínio de links encurtados com boa reputação ( empresas conhecias ) e reputação desconhecia.
