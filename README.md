@@ -3,4 +3,7 @@
 <br>
 <a href="../../wiki"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=999&pause=3000&color=57F287&multiline=true&random=false&width=460&lines=%E2%9E%A4+CLIQUE+AQUI++PARA+ACESSAR+O+GUIA" alt="Typing SVG" /></a>
 <br><br>
-<img src="https://i.imgur.com/nEjoL90.jpg" width="1000">
+
+<picture>
+  <img  src="https://i.imgur.com/nEjoL90.jpg">
+</picture>
