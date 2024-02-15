@@ -1,4 +1,4 @@
-{ 
+{
   "shortlinks_scams": [
     "uclck.ru/RaUON",
     "go-link.ru/oLBMB",
@@ -17,7 +17,8 @@
     "shorter.me/X2T_w",
     "qptr.ru/fHLT",
     "surl.li/qmhge",
-    "qptr.ru/BndH"
+    "qptr.ru/BndH",
+    "lyl.su/V6g"
   ],
   "result_urlscan": [
     "- [🔍︎ uclck.ru/RaUON](https://urlscan.io/result/1b71fc4d-6ec4-4e8a-8bea-45a44ece2444/)",
@@ -37,7 +38,8 @@
     "- [🔍︎ shorter.me/X2T_w](https://urlscan.io/result/83b92551-90bd-4fae-b026-cb98b833e97f/)",
     "- [🔍︎ qptr.ru/fHLT](https://urlscan.io/result/f8689e61-a63a-456c-804d-000e0c24bab0/)",
     "- [🔍︎ surl.li/qmhge](https://urlscan.io/result/362ed535-2fa3-40b4-aec8-e118fea04dc3/)",
-    "- [🔍︎ qptr.ru/BndH](https://urlscan.io/result/0a290333-0a36-4d36-8275-8f9c3e8de7ac/)"
+    "- [🔍︎ qptr.ru/BndH](https://urlscan.io/result/0a290333-0a36-4d36-8275-8f9c3e8de7ac/)",
+    "- [🔍︎ lyl.su/V6g](https://urlscan.io/result/2ea35143-a99b-4734-9701-df6df06048cd/)"
   ],
   "regex_block_domain_shortlinks": "(https:\\/\\/www\\.|http:\\/\\/www\\.|https:\\/\\/|http:\\/\\/)(t\\.me|surl\\.li|u\\.to|t\\.co|gclnk\\.com|qptr\\.ru|uclck\\.ru|go-link\\.ru|envs\\.sh|shorter\\.me)",
   "keywords_scams": [
