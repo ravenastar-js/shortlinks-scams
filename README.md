@@ -44,7 +44,7 @@ fetchData()
 ### regex_block_domain_shortlinks
 - Lista de links encurtados populares que os golpistas usam pra burlar o sistema de detecção de phishing/scam do Discord, contém domínio de links encurtados com boa reputação ( empresas conhecias ) e reputação desconhecia.
 
-> golpistas também usam encurtadores de links de empresas conhecidas com boa reputação
+> golpistas também usam encurtadores de links de empresas conhecidas com boa reputação para aplicar golpes.
 
 ### keywords_scams
 - Palavras-chave usadas no spam de mensagens dos golpistas quando vão enviar os golpes.
