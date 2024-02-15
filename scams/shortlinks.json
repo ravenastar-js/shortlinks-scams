@@ -47,7 +47,7 @@
     "- [🔍︎ go-link.ru/mNO20](https://urlscan.io/result/18734c17-adba-40b4-a839-c5439fb6bc45/)",
     "- [🔍︎ sc.link/EeCZs](https://urlscan.io/result/422cb273-cc35-4451-a451-98b5353f1af9/)"
   ],
-  "regex_block_domain_shortlinks": "(https:\\/\\/www\\.|http:\\/\\/www\\.|https:\\/\\/|http:\\/\\/)(t\\.me|surl\\.li|u\\.to|t\\.co|gclnk\\.com|qptr\\.ru|uclck\\.ru|go-link\\.ru|envs\\.sh|shorter\\.me||sc\\.link)",
+  "regex_block_domain_shortlinks": "(https:\\/\\/www\\.|http:\\/\\/www\\.|https:\\/\\/|http:\\/\\/)(t\\.me|surl\\.li|u\\.to|t\\.co|gclnk\\.com|qptr\\.ru|uclck\\.ru|go-link\\.ru|envs\\.sh|shorter\\.me|sc\\.link)",
   "keywords_scams": [
     "50$ from steam",
     "10$ from steam",
