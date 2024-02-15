@@ -1,5 +1,5 @@
 > [!CAUTION]
-> NÃO ACESSEM LINKS ENCURTADOS SEM UMA VERIFICAÇÃO PRÉVIA OU SEM CONHECIMENTO.
+> NÃO ACESSEM LINKS ENCURTADOS DESSE PROJETO SEM UMA VERIFICAÇÃO PRÉVIA OU SEM CONHECIMENTO.
 
 > [!WARNING]  
 > OS LINKS SÃO ANALISADOS E ADICIONAMOS MANUALMENTE NESSE PROJETO EVITANDO FALSO POSITIVO, TODOS OS LINKS LISTADOS NA OPÇÃO [shortlinks_scams](/scams/shortlinks.json) FORAM ENVIADOS POR GOLPISTAS EM SERVIDORES DE DISCORD.
@@ -15,7 +15,7 @@
 > [!IMPORTANT] 
 > **️Não pretendemos remover os links encurtados, mesmo que eles não direcionem mais para um(a) IP/página da web válida, pois são e ainda foram criados para phishing/scam. Se o link encurtado não é mais redirecionado para uma página maliciosa, favor informar para a equipe do projeto no [servidor de suporte](https://discord.gg/PGmfDBSXC7).**
 ---
-### Exemplo de como puxar os dados do projeto:
+### Como puxar os dados do projeto ( node.js / javascript ):
 ```javascript
 const axios = require("axios")
 let url = `https://raw.githubusercontent.com/ravenastar-js/shortlinks-scams/main/scams/shortlinks.json`
