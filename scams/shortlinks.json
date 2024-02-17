@@ -61,7 +61,7 @@
     "- [🔍︎ qptr.ru/FrZL](https://urlscan.io/result/635dd881-31b8-4a15-a13a-1cc59f8cbf3e/)",
     "- [🔍︎ u.to/mDFhIA](https://urlscan.io/result/ce09551b-4446-411e-9dbe-7d8c88a44698/)"
   ],
-  "regex_block_domain_shortlinks": "(https:\\/\\/www\\.|http:\\/\\/www\\.|https:\\/\\/|http:\\/\\/)(t\\.me|surl\\.li|u\\.to|t\\.co|gclnk\\.com|qptr\\.ru|uclck\\.ru|go-link\\.ru|envs\\.sh|shorter\\.me|sc\\.link)",
+  "regex_block_domain_shortlinks": "(https:\\/\\/www\\.|http:\\/\\/www\\.|https:\\/\\/|http:\\/\\/)(surl\\.li|u\\.to|t\\.co|gclnk\\.com|qptr\\.ru|uclck\\.ru|go-link\\.ru|envs\\.sh|shorter\\.me|sc\\.link)",
   "keywords_scams": [
     "50$ from steam",
     "10$ from steam",
