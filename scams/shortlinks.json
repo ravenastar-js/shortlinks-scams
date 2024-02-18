@@ -28,7 +28,8 @@
     "qoo.su/KQOlO",
     "go-link.ru/mNOeZ",
     "qptr.ru/FrZL",
-    "u.to/mDFhIA"
+    "u.to/mDFhIA",
+    "qptr.ru/MIXj"
   ],
   "result_urlscan": [
     "- [🔍︎ uclck.ru/RaUON](https://urlscan.io/result/1b71fc4d-6ec4-4e8a-8bea-45a44ece2444/)",
@@ -59,7 +60,8 @@
     "- [🔍︎ qoo.su/KQOlO](https://urlscan.io/result/b324f66e-9886-4258-9a92-f543d9de3c19/)",
     "- [🔍︎ go-link.ru/mNOeZ](https://urlscan.io/result/7384093d-bf02-4c1e-9697-a1277b870c63/)",
     "- [🔍︎ qptr.ru/FrZL](https://urlscan.io/result/635dd881-31b8-4a15-a13a-1cc59f8cbf3e/)",
-    "- [🔍︎ u.to/mDFhIA](https://urlscan.io/result/ce09551b-4446-411e-9dbe-7d8c88a44698/)"
+    "- [🔍︎ u.to/mDFhIA](https://urlscan.io/result/ce09551b-4446-411e-9dbe-7d8c88a44698/)",
+    "- [🔍︎ qptr.ru/MIXj](https://urlscan.io/result/33bb4831-56d1-4cc7-a839-63a73dfe4f0d/)"
   ],
   "regex_block_domain_shortlinks": "(https:\\/\\/www\\.|http:\\/\\/www\\.|https:\\/\\/|http:\\/\\/)(surl\\.li|u\\.to|t\\.co|gclnk\\.com|qptr\\.ru|uclck\\.ru|go-link\\.ru|envs\\.sh|shorter\\.me|sc\\.link)",
   "keywords_scams": [
