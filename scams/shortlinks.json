@@ -30,7 +30,8 @@
     "qptr.ru/FrZL",
     "u.to/mDFhIA",
     "qptr.ru/MIXj",
-    "nezur.io"
+    "nezur.io",
+    "/urlscan check:bit.ly/adobe_gratis"
   ],
   "result_urlscan": [
     {
@@ -187,6 +188,11 @@
       "link": "nezur.io",
       "urlscan": "https://urlscan.io/result/eb4f1590-f5f9-493d-b322-aafe418cab1a/",
       "desc": "Others | Phishing, scam or malware"
+    },
+    {
+      "link": "/urlscan check:bit.ly/adobe_gratis",
+      "urlscan": "https://urlscan.io/result/bfabb00f-c60d-45ba-827a-a96d5e19849e/",
+      "desc": "Others | Phishing, scam, piracy or malware"
     }
   ],
   "regex_block_domain_shortlinks": "(https:\\/\\/www\\.|http:\\/\\/www\\.|https:\\/\\/|http:\\/\\/)(surl\\.li|u\\.to|t\\.co|gclnk\\.com|qptr\\.ru|uclck\\.ru|go-link\\.ru|envs\\.sh|shorter\\.me|sc\\.link)",
