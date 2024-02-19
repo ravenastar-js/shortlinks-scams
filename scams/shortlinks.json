@@ -31,7 +31,8 @@
     "u.to/mDFhIA",
     "qptr.ru/MIXj",
     "nezur.io",
-    "bit.ly/adobe_gratis"
+    "bit.ly/adobe_gratis",
+    "u.to/Uq9iIA"
   ],
   "result_urlscan": [
     {
@@ -193,6 +194,11 @@
       "link": "bit.ly/adobe_gratis",
       "urlscan": "https://urlscan.io/result/bfabb00f-c60d-45ba-827a-a96d5e19849e/",
       "desc": "Others | Phishing, scam, piracy or malware"
+    },
+    {
+      "link": "u.to/Uq9iIA",
+      "urlscan": "https://urlscan.io/result/561a4c5f-5e1a-4666-a154-6475700f2a93/",
+      "desc": "Steam (Gaming) | Phishing/scam | Page URL history and one of the evidence"
     }
   ],
   "regex_block_domain_shortlinks": "(https:\\/\\/www\\.|http:\\/\\/www\\.|https:\\/\\/|http:\\/\\/)(surl\\.li|u\\.to|t\\.co|gclnk\\.com|qptr\\.ru|uclck\\.ru|go-link\\.ru|envs\\.sh|shorter\\.me|sc\\.link)",
