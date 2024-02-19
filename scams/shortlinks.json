@@ -29,7 +29,8 @@
     "go-link.ru/mNOeZ",
     "qptr.ru/FrZL",
     "u.to/mDFhIA",
-    "qptr.ru/MIXj"
+    "qptr.ru/MIXj",
+    "nezur.io/"
   ],
   "result_urlscan": [
     {
@@ -181,7 +182,8 @@
       "link": "qptr.ru/MIXj",
       "urlscan": "https://urlscan.io/result/33bb4831-56d1-4cc7-a839-63a73dfe4f0d/",
       "desc": "Steam (Gaming) | Phishing/scam | Page URL history and one of the evidence"
-    }
+    },
+    "{link:nezur.io/,urlscan:https://urlscan.io/result/eb4f1590-f5f9-493d-b322-aafe418cab1a/,desc:Others | Phishing, scam or malware}"
   ],
   "regex_block_domain_shortlinks": "(https:\\/\\/www\\.|http:\\/\\/www\\.|https:\\/\\/|http:\\/\\/)(surl\\.li|u\\.to|t\\.co|gclnk\\.com|qptr\\.ru|uclck\\.ru|go-link\\.ru|envs\\.sh|shorter\\.me|sc\\.link)",
   "keywords_scams": [
