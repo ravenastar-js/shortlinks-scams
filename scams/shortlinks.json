@@ -32,7 +32,8 @@
     "qptr.ru/MIXj",
     "nezur.io",
     "bit.ly/adobe_gratis",
-    "u.to/Uq9iIA"
+    "u.to/Uq9iIA",
+    "tinyurl.com/yypz894j"
   ],
   "result_urlscan": [
     {
@@ -199,6 +200,11 @@
       "link": "u.to/Uq9iIA",
       "urlscan": "https://urlscan.io/result/561a4c5f-5e1a-4666-a154-6475700f2a93/",
       "desc": "Steam (Gaming) | Phishing/scam | Page URL history and one of the evidence"
+    },
+    {
+      "link": "tinyurl.com/yypz894j",
+      "urlscan": "https://www.virustotal.com/gui/url/f2eb61ebd0c867467f215a2fa74c9a9bc895c5306f10a77c0dc74d32219664a5/details",
+      "desc": "Steam (Gaming) | Phishing/scam"
     }
   ],
   "regex_block_domain_shortlinks": "(https:\\/\\/www\\.|http:\\/\\/www\\.|https:\\/\\/|http:\\/\\/)(surl\\.li|u\\.to|t\\.co|gclnk\\.com|qptr\\.ru|uclck\\.ru|go-link\\.ru|envs\\.sh|shorter\\.me|sc\\.link)",
