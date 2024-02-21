@@ -189,6 +189,11 @@
       "link": "qptr.ru/aflc",
       "report": "https://urlscan.io/result/2411da97-9833-40a5-86bf-b501971cd929/",
       "desc": "Steam (Gaming) | Phishing/scam"
+    },
+    {
+      "link": "go-link.ru/PyD0J",
+      "report": "https://urlscan.io/result/310f7604-c7e9-4b3f-adeb-b3fa4779a816/",
+      "desc": "Steam (Gaming) | Phishing/scam"
     }
   ],
   "regex_block_domain_shortlinks": "(https:\\/\\/www\\.|http:\\/\\/www\\.|https:\\/\\/|http:\\/\\/)(surl\\.li|u\\.to|t\\.co|gclnk\\.com|qptr\\.ru|uclck\\.ru|go-link\\.ru|envs\\.sh|shorter\\.me|sc\\.link)",
