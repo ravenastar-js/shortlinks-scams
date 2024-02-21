@@ -174,6 +174,11 @@
       "link": "u.to/52JjIA",
       "report": "https://urlscan.io/result/a8f0f6f3-9fc7-4a71-807a-ad352114590c/",
       "desc": "Steam (Gaming) | Phishing/scam"
+    },
+    {
+      "link": "u.to/MOtjIA",
+      "report": "https://urlscan.io/result/f9a7df88-ca71-42a7-995e-6155f85575b9/",
+      "desc": "Steam (Gaming) | Phishing/scam | Page URL history and one of the evidence"
     }
   ],
   "regex_block_domain_shortlinks": "(https:\\/\\/www\\.|http:\\/\\/www\\.|https:\\/\\/|http:\\/\\/)(surl\\.li|u\\.to|t\\.co|gclnk\\.com|qptr\\.ru|uclck\\.ru|go-link\\.ru|envs\\.sh|shorter\\.me|sc\\.link)",
