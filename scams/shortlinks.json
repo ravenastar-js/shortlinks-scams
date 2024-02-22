@@ -199,6 +199,11 @@
       "link": "qptr.ru/Z5np",
       "report": "https://urlscan.io/result/5fafa4f1-5a59-4697-8db1-e1a2dcd40638/",
       "desc": "Steam (Gaming) | Phishing/scam | Page URL history and one of the evidence"
+    },
+    {
+      "link": "u.to/b_1kIA",
+      "report": "https://urlscan.io/result/e55e6d0e-f53b-4bf6-ab51-98142bab6207/",
+      "desc": "Steam (Gaming) | Phishing/scam | Page URL history and one of the evidence"
     }
   ],
   "regex_block_domain_shortlinks": "(https:\\/\\/www\\.|http:\\/\\/www\\.|https:\\/\\/|http:\\/\\/)(surl\\.li|u\\.to|t\\.co|gclnk\\.com|qptr\\.ru|uclck\\.ru|go-link\\.ru|envs\\.sh|shorter\\.me|sc\\.link)",
