@@ -204,6 +204,11 @@
       "link": "u.to/b_1kIA",
       "report": "https://urlscan.io/result/e55e6d0e-f53b-4bf6-ab51-98142bab6207/",
       "desc": "Steam (Gaming) | Phishing/scam | Page URL history and one of the evidence"
+    },
+    {
+      "link": "u.to/w7VkIA",
+      "report": "https://urlscan.io/result/67f05c11-388c-4c5a-be23-ffc904e7221b/",
+      "desc": "Discord (Instant Messenger) | Phishing/scam"
     }
   ],
   "regex_block_domain_shortlinks": "(https:\\/\\/www\\.|http:\\/\\/www\\.|https:\\/\\/|http:\\/\\/)(surl\\.li|u\\.to|t\\.co|gclnk\\.com|qptr\\.ru|uclck\\.ru|go-link\\.ru|envs\\.sh|shorter\\.me|sc\\.link)",
