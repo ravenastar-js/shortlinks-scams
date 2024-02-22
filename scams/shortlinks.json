@@ -209,6 +209,11 @@
       "link": "u.to/w7VkIA",
       "report": "https://urlscan.io/result/67f05c11-388c-4c5a-be23-ffc904e7221b/",
       "desc": "Discord (Instant Messenger) | Phishing/scam"
+    },
+    {
+      "link": "u.to/whJkIA",
+      "report": "https://urlscan.io/result/a78addd7-c6e9-462d-89c8-d72f89a67574/",
+      "desc": "Steam (Gaming) | Phishing/scam"
     }
   ],
   "regex_block_domain_shortlinks": "(https:\\/\\/www\\.|http:\\/\\/www\\.|https:\\/\\/|http:\\/\\/)(surl\\.li|u\\.to|t\\.co|gclnk\\.com|qptr\\.ru|uclck\\.ru|go-link\\.ru|envs\\.sh|shorter\\.me|sc\\.link)",
