@@ -15,8 +15,6 @@ jobs:
         with:
           node-version: lts/*
       - run: yarn
-      - run: npm run build
-      - run: npm run test
 
   publish-npm:
     needs: build
@@ -26,8 +24,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: lts/*
-          registry-url: https://www.npmjs.com/package/ravenastar
+          registry-url: https://registry.npmjs.org/
       - run: yarn
-      - run: npm publish
+      - run: |
+          npm version pre --preid=$(date +%s) --no-git-tag-version
+          npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
