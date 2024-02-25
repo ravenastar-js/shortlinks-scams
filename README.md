@@ -1,5 +1,3 @@
-> BLOCKLIST OF SHORT LINKS COMMONLY SENT BY SCAMMERS ON DISCORD & DIGITAL SECURITY WIKI
-
 <p align="center">
 <a href="https://www.npmjs.com/package/ravenastar" target="_blank"><img src="https://img.shields.io/badge/-ravenastar-c40404?style=flat-square&labelColor=c40404&logo=npm&logoColor=white&link=https://www.npmjs.com/package/ravenastar" height="30" /></a>
 <p align="center">
