@@ -5,6 +5,12 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
+    "contributors": [
+        {
+            "name":"Gorniaky",
+            "url":"https://github.com/Gorniaky"
+        }
+    ],
     "keywords": [
       "ravenastar"
     ],
