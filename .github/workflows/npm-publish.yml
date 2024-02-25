@@ -26,6 +26,8 @@ jobs:
           node-version: lts/*
           registry-url: https://registry.npmjs.org/
       - run: yarn
-      - run: npm publish
+      - run: |
+          npm version pre --preid=$(date +%s) --no-git-tag-version
+          npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
