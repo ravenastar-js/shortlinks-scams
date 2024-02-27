@@ -244,6 +244,11 @@
       "link": "qptr.ru/XU4T",
       "report": "https://urlscan.io/result/fba393e7-f7cc-4e9a-bf22-1802c4927273/",
       "desc": "Steam (Gaming) | Phishing/scam | Page URL history and one of the evidence"
+    },
+    {
+      "link": "uclck.ru/CHiLo",
+      "report": "https://urlscan.io/result/e47ead01-5a54-4130-9a5d-18880ffc3a85/",
+      "desc": "Steam (Gaming) | Phishing/scam"
     }
   ],
   "regex_block_domain_shortlinks": "(https:\\/\\/www\\.|http:\\/\\/www\\.|https:\\/\\/|http:\\/\\/)(surl\\.li|u\\.to|t\\.co|gclnk\\.com|qptr\\.ru|uclck\\.ru|go-link\\.ru|envs\\.sh|shorter\\.me|sc\\.link)",
