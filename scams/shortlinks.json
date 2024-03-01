@@ -249,6 +249,11 @@
       "link": "uclck.ru/CHiLo",
       "report": "https://urlscan.io/result/e47ead01-5a54-4130-9a5d-18880ffc3a85/",
       "desc": "Steam (Gaming) | Phishing/scam"
+    },
+    {
+      "link": "telegra.ph/Adobe-GRATIS-2024-FULL-ESPANOL-02-28",
+      "report": "https://urlscan.io/result/e0bf6d81-529b-4fbd-9d46-fdaadeab2629/",
+      "desc": "Others | Phishing, scam, piracy or malware"
     }
   ],
   "regex_block_domain_shortlinks": "(https:\\/\\/www\\.|http:\\/\\/www\\.|https:\\/\\/|http:\\/\\/)(surl\\.li|u\\.to|t\\.co|gclnk\\.com|qptr\\.ru|uclck\\.ru|go-link\\.ru|envs\\.sh|shorter\\.me|sc\\.link)",
