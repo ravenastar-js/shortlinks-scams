@@ -284,6 +284,11 @@
       "link": "u.to/rzRyIA",
       "report": "https://urlscan.io/result/aa24caf6-f4ff-4b89-b628-43f11f9cce1e/",
       "desc": "Steam (Gaming) | Phishing/scam"
+    },
+    {
+      "link": "u.to/lVxxIA",
+      "report": "https://urlscan.io/result/d7237ca4-4f93-4f9d-b147-24a4910fd9bc/",
+      "desc": "Steam (Gaming) | Phishing/scam"
     }
   ],
   "regex_block_domain_shortlinks": "(https:\\/\\/www\\.|http:\\/\\/www\\.|https:\\/\\/|http:\\/\\/)(surl\\.li|u\\.to|t\\.co|gclnk\\.com|qptr\\.ru|uclck\\.ru|go-link\\.ru|envs\\.sh|shorter\\.me|sc\\.link)",
