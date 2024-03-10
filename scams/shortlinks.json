@@ -301,7 +301,7 @@
       "desc": "Steam (Gaming) | Phishing/scam | Page URL history and one of the evidence"
     }
   ],
-  "regex_block_domain_shortlinks": "(https:\\/\\/www\\.|http:\\/\\/www\\.|https:\\/\\/|http:\\/\\/)(surl\\.li|u\\.to|t\\.co|gclnk\\.com|qptr\\.ru|uclck\\.ru|go-link\\.ru|envs\\.sh|shorter\\.me|sc\\.link)",
+  "regex_block_domain_shortlinks": "(https:\\/\\/www\\.|http:\\/\\/www\\.|https:\\/\\/|http:\\/\\/)(surl\\.li|u\\.to|t\\.co|gclnk\\.com|qptr\\.ru|uclck\\.ru|go-link\\.ru|envs\\.sh|shorter\\.me|sc\\.link|goo\\.su)",
   "keywords_scams": [
     "50$ from steam",
     "10$ from steam",
@@ -317,6 +317,7 @@
     "Free nudes 18 +",
     "Nezur External",
     "Adobe Full Espanol GRATiS",
-    "50$ for steam"
+    "50$ for steam",
+    "get access to hot photos"
   ]
 }
