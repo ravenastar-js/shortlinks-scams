@@ -309,6 +309,11 @@
       "link": "envs.sh/huK",
       "report": "https://urlscan.io/result/bca3d291-ec80-4e96-bf5d-4c931891945e/",
       "desc": "Steam (Gaming) | Phishing/scam"
+    },
+    {
+      "link": "envs.sh/hum",
+      "report": "https://urlscan.io/result/9883d3e5-7813-4fff-b106-e6e00b53d1f1/",
+      "desc": "Steam (Gaming) | Phishing/scam"
     }
   ],
   "regex_block_domain_shortlinks": "(https:\\/\\/www\\.|http:\\/\\/www\\.|https:\\/\\/|http:\\/\\/)(surl\\.li|u\\.to|t\\.co|gclnk\\.com|qptr\\.ru|uclck\\.ru|go-link\\.ru|envs\\.sh|shorter\\.me|sc\\.link|goo\\.su)",
