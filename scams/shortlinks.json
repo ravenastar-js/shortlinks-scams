@@ -324,6 +324,11 @@
       "link": "go-link.ru/P4VEB",
       "report": "https://urlscan.io/result/2a8bff5a-1fba-477a-ac26-9c123d1c1684/",
       "desc": "Steam (Gaming) | Phishing/scam"
+    },
+    {
+      "link": "lyl.su/ghxf",
+      "report": "https://urlscan.io/result/9636fe9d-c389-4a72-bfb1-0509c88796d3/",
+      "desc": "Steam (Gaming) | Phishing/scam | Page URL history and one of the evidence"
     }
   ],
   "regex_block_domain_shortlinks": "(https:\\/\\/www\\.|http:\\/\\/www\\.|https:\\/\\/|http:\\/\\/)(surl\\.li|u\\.to|t\\.co|gclnk\\.com|qptr\\.ru|uclck\\.ru|go-link\\.ru|envs\\.sh|shorter\\.me|sc\\.link|goo\\.su)",
