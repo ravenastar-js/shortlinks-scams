@@ -329,6 +329,11 @@
       "link": "lyl.su/ghxf",
       "report": "https://urlscan.io/result/9636fe9d-c389-4a72-bfb1-0509c88796d3/",
       "desc": "Steam (Gaming) | Phishing/scam | Page URL history and one of the evidence"
+    },
+    {
+      "link": "envs.sh/hbp",
+      "report": "https://urlscan.io/result/6be6d34a-0885-4ec5-8a34-96238fccd785/",
+      "desc": "Steam (Gaming) | Phishing/scam"
     }
   ],
   "regex_block_domain_shortlinks": "(https:\\/\\/www\\.|http:\\/\\/www\\.|https:\\/\\/|http:\\/\\/)(surl\\.li|u\\.to|t\\.co|gclnk\\.com|qptr\\.ru|uclck\\.ru|go-link\\.ru|envs\\.sh|shorter\\.me|sc\\.link|goo\\.su)",
