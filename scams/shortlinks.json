@@ -1,4 +1,26 @@
 {
+  "regex_block_domain_shortlinks": "(https:\\/\\/www\\.|http:\\/\\/www\\.|https:\\/\\/|http:\\/\\/)(surl\\.li|u\\.to|t\\.co|gclnk\\.com|qptr\\.ru|uclck\\.ru|go-link\\.ru|envs\\.sh|shorter\\.me|sc\\.link|goo\\.su)",
+  "keywords_scams": [
+    "50$ from steam",
+    "10$ from steam",
+    "FRЕЕ GIFТ DISСОRD NIТRO",
+    "Free Steam gift",
+    "Free Discrod Nitro",
+    "Steam 10.000$ giveaway",
+    "nitro generator method",
+    "Free 18+ Content",
+    "free onlyfans",
+    "gift 50$",
+    "Free 🔞 Content",
+    "Free nudes 18 +",
+    "Nezur External",
+    "Adobe Full Espanol GRATiS",
+    "50$ for steam",
+    "get access to hot photos",
+    "steam 50$ gift",
+    "18+ Free Content",
+    "Onlyfans leaks"
+  ],
   "shortlinks_scams": [
     {
       "link": "uclck.ru/RaUON",
@@ -344,28 +366,11 @@
       "link": "envs.sh/hPP",
       "report": "https://urlscan.io/result/d9f46702-c5c0-44f4-a6ab-37eeac2dae0d/",
       "desc": "Steam (Gaming) | Phishing/scam"
+    },
+    {
+      "link": "go-link.ru/mNW1d",
+      "report": "https://urlscan.io/result/51e46685-2003-4109-8aee-78a8292236e0/",
+      "desc": "Steam (Gaming) | Phishing/scam"
     }
-  ],
-  "regex_block_domain_shortlinks": "(https:\\/\\/www\\.|http:\\/\\/www\\.|https:\\/\\/|http:\\/\\/)(surl\\.li|u\\.to|t\\.co|gclnk\\.com|qptr\\.ru|uclck\\.ru|go-link\\.ru|envs\\.sh|shorter\\.me|sc\\.link|goo\\.su)",
-  "keywords_scams": [
-    "50$ from steam",
-    "10$ from steam",
-    "FRЕЕ GIFТ DISСОRD NIТRO",
-    "Free Steam gift",
-    "Free Discrod Nitro",
-    "Steam 10.000$ giveaway",
-    "nitro generator method",
-    "Free 18+ Content",
-    "free onlyfans",
-    "gift 50$",
-    "Free 🔞 Content",
-    "Free nudes 18 +",
-    "Nezur External",
-    "Adobe Full Espanol GRATiS",
-    "50$ for steam",
-    "get access to hot photos",
-    "steam 50$ gift",
-    "18+ Free Content",
-    "Onlyfans leaks"
   ]
 }
