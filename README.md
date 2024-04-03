@@ -28,6 +28,7 @@
 <br>
 <a href="https://github.com/ravenastar-js/shortlinks-scams/wiki"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=999&pause=3000&color=57F287&multiline=true&random=false&width=460&lines=%E2%9E%A4+CLIQUE+AQUI++PARA+ACESSAR+A+WIKI" alt="Typing SVG" /></a>
 <br><br>
+
 > [!TIP]
 > O PROJETO PODE SER USADO COMO UM GUIA, HÁ DIVERSAS DICAS PARA MELHORAR SUA SEGURANÇA DIGITAL. 
 
