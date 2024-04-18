@@ -1,5 +1,5 @@
 {
-  "regex_block_domain_shortlinks": "(https:\\/\\/www\\.|http:\\/\\/www\\.|https:\\/\\/|http:\\/\\/)(surl\\.li|u\\.to|t\\.co|gclnk\\.com|qptr\\.ru|uclck\\.ru|go-link\\.ru|envs\\.sh|shorter\\.me|sc\\.link|goo\\.su|plhn\\.pw|ej136\\.cfd|f-link\\.me)",
+  "regex_block_domain_shortlinks": "(https:\\/\\/www\\.|http:\\/\\/www\\.|https:\\/\\/|http:\\/\\/)(surl\\.li|u\\.to|t\\.co|gclnk\\.com|qptr\\.ru|uclck\\.ru|go-link\\.ru|envs\\.sh|shorter\\.me|sc\\.link|goo\\.su|plhn\\.pw|ej136\\.cfd|f-link\\.me|lnky\\.ru)",
   "keywords_scams": [
     "50$ from steam",
     "10$ from steam",
