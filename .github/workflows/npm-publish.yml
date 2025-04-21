@@ -1,6 +1,3 @@
-# This workflow will run tests using node and then publish a package to GitHub Packages when a release is created
-# For more information see: https://help.github.com/actions/language-and-framework-guides/publishing-nodejs-packages
-
 name: Node.js Package
 
 on:
@@ -26,15 +23,28 @@ jobs:
           node-version: lts/*
           registry-url: https://registry.npmjs.org/
 
-      - name: Get short SHA
-        id: short_github_sha
+      - name: Get latest version from npm
+        id: npm_version
         run: |
-          id=$(echo ${{ github.sha }} | cut -c 1-7)
-          echo "id=$id" >> $GITHUB_OUTPUT
+          # Pega a última versão publicada no npm (ou usa 0.0.0 se não existir)
+          LATEST_VERSION=$(npm view . version 2>/dev/null || echo "0.0.0")
+          echo "version=$LATEST_VERSION" >> $GITHUB_OUTPUT
 
-      - run: yarn
-      - run: |
-          npm version pre --preid=${{ steps.short_github_sha.outputs.id }} --no-git-tag-version
-          npm publish
+      - name: Increment pre-release version
+        run: |
+          CURRENT_VERSION=${{ steps.npm_version.outputs.version }}
+          # Se a versão já é um pre-release (ex: 1.0.0-1), incrementa o número
+          if [[ "$CURRENT_VERSION" =~ -([0-9]+)$ ]]; then
+            NEXT_NUMBER=$(( ${BASH_REMATCH[1]} + 1 ))
+            NEW_VERSION="${CURRENT_VERSION%-*}-$NEXT_NUMBER"
+          else
+            # Se não for pre-release, cria um novo (ex: 1.0.0 → 1.0.0-1)
+            NEW_VERSION="${CURRENT_VERSION}-1"
+          fi
+          npm version "$NEW_VERSION" --no-git-tag-version
+          echo "New version: $NEW_VERSION"
+
+      - name: Publish to npm
+        run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
