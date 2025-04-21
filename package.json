@@ -1,26 +1,25 @@
 {
     "name": "ravenastar",
-    "version": "1.0.0",
+    "version": "1.0.0-6",
     "description": "BLOCKLIST OF SHORT LINKS COMMONLY SENT BY SCAMMERS ON DISCORD & DIGITAL SECURITY WIKI",
     "main": "src/index.js",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "contributors": [
         {
-            "name":"RavenaStar",
-            "url":"https://github.com/ravenastar-js"
+            "name": "RavenaStar",
+            "url": "https://github.com/ravenastar-js"
         },
         {
-            "name":"Gorniaky",
-            "url":"https://github.com/Gorniaky"
+            "name": "Gorniaky",
+            "url": "https://github.com/Gorniaky"
         }
     ],
     "keywords": [
-      "ravenastar"
+        "ravenastar"
     ],
     "homepage": "https://github.com/ravenastar-js/shortlinks-scams/wiki",
     "author": "ravenastar-js",
     "license": "ISC"
-  }
-  
+}
