@@ -24,9 +24,7 @@
 </p>
 
 > [!CAUTION]
-> NÃO ACESSAR LINKS ENCURTADOS DESSE PROJETO SEM UMA VERIFICAÇÃO PRÉVIA OU SEM CONHECIMENTO, **LEIA A WIKI PARA MAIS INFORMAÇÕES**.
-<br>
-<a href="https://github.com/ravenastar-js/shortlinks-scams/wiki"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=999&pause=3000&color=57F287&multiline=true&random=false&width=460&lines=%E2%9E%A4+CLIQUE+AQUI++PARA+ACESSAR+A+WIKI" alt="Typing SVG" /></a>
+> NÃO ACESSAR LINKS ENCURTADOS DESSE PROJETO SEM UMA VERIFICAÇÃO PRÉVIA OU SEM CONHECIMENTO, **LEIA A [WIKI](https://github.com/ravenastar-js/shortlinks-scams/wiki) PARA MAIS INFORMAÇÕES**.
 <br><br>
 
 > [!WARNING]
