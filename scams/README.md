@@ -1,0 +1,2 @@
+> [!WARNING]
+> O regex de `regex_block_hyperlink` em [shortlinks.json](shortlinks.json) foi escrito dessa forma `\\[([^\\]]+)\\]\\((https?:\\/\\/[^\\)]+)\\)` porque está em um JSON. Caso for usar no AutoMod do Discord, utilize o exemplo da WIKI: [BLOCK HIPERLINKS](https://github.com/ravenastar-js/shortlinks-scams/wiki/BLOCK-HIPERLINKS)
