@@ -1,7 +1,12 @@
+# Workflow com Versionamento Sequencial Automático
+
 name: Node.js Package
 
 on:
   push
+
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -18,6 +23,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
       - uses: actions/setup-node@v4
         with:
           node-version: lts/*
@@ -37,8 +45,11 @@ jobs:
       - name: Get last pre-release number
         id: get_pre_number
         run: |
-          LAST_VERSION=$(npm view . version 2>/dev/null || echo "${{ steps.get_version.outputs.base_version }}-0")
-          if [[ "$LAST_VERSION" =~ -([0-9]+)$ ]]; then
+          # Verifica se já existe versão publicada no npm
+          LATEST_NPM_VERSION=$(npm view . version 2>/dev/null || echo "0.0.0-0")
+          
+          # Se a versão do npm tem o mesmo prefixo da versão base
+          if [[ "$LATEST_NPM_VERSION" =~ ^${{ steps.get_version.outputs.base_version }}-([0-9]+)$ ]]; then
             PRE_NUMBER=${BASH_REMATCH[1]}
           else
             PRE_NUMBER=0
@@ -50,8 +61,10 @@ jobs:
           NEW_PRE_NUMBER=$(( ${{ steps.get_pre_number.outputs.pre_number }} + 1 ))
           NEW_VERSION="${{ steps.get_version.outputs.base_version }}-$NEW_PRE_NUMBER"
           
+          # Atualiza a versão no package.json
           npm version "$NEW_VERSION" --no-git-tag-version
           
+          # Commita e envia a alteração
           git add package.json
           git commit -m "chore: bump version to $NEW_VERSION [skip ci]"
           git push
