@@ -23,27 +23,35 @@ jobs:
           node-version: lts/*
           registry-url: https://registry.npmjs.org/
 
-      - name: Get latest version from npm
+      - name: Get base version
         id: get_version
         run: |
-          # Pega a última versão publicada no npm (se não existir, usa a do package.json)
-          LATEST_VERSION=$(npm view . version 2>/dev/null || node -p "require('./package.json').version")
-          echo "version=$LATEST_VERSION" >> $GITHUB_OUTPUT
+          # Pega a versão base do package.json (removendo qualquer -pre-release existente)
+          BASE_VERSION=$(node -p "require('./package.json').version.split('-')[0]")
+          echo "base_version=$BASE_VERSION" >> $GITHUB_OUTPUT
 
-      - name: Generate next pre-release version
+      - name: Get last pre-release number
+        id: get_pre_number
         run: |
-          CURRENT_VERSION=${{ steps.get_version.outputs.version }}
+          # Tenta obter a última versão publicada no npm
+          LAST_VERSION=$(npm view . version 2>/dev/null || echo "${{ steps.get_version.outputs.base_version }}-0")
           
-          # Se a versão já tem um pre-release (ex: 1.0.0-3), extrai o número e incrementa
-          if [[ "$CURRENT_VERSION" =~ -([0-9]+)$ ]]; then
-            NEXT_NUMBER=$(( ${BASH_REMATCH[1]} + 1 ))
-            NEW_VERSION="${CURRENT_VERSION%-*}-$NEXT_NUMBER"
+          # Extrai o último número de pré-release ou usa 0 se não existir
+          if [[ "$LAST_VERSION" =~ -([0-9]+)$ ]]; then
+            PRE_NUMBER=${BASH_REMATCH[1]}
           else
-            # Se não tem pre-release, adiciona -1 (ex: 1.0.0 → 1.0.0-1)
-            NEW_VERSION="$CURRENT_VERSION-1"
+            PRE_NUMBER=0
           fi
           
-          # Atualiza a versão no package.json (sem criar tag Git)
+          echo "pre_number=$PRE_NUMBER" >> $GITHUB_OUTPUT
+
+      - name: Set new version
+        run: |
+          # Calcula o novo número de pré-release
+          NEW_PRE_NUMBER=$(( ${{ steps.get_pre_number.outputs.pre_number }} + 1 ))
+          NEW_VERSION="${{ steps.get_version.outputs.base_version }}-$NEW_PRE_NUMBER"
+          
+          # Atualiza a versão no package.json
           npm version "$NEW_VERSION" --no-git-tag-version
           echo "New version: $NEW_VERSION"
 
