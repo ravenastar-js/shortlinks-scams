@@ -24,23 +24,26 @@ jobs:
           registry-url: https://registry.npmjs.org/
 
       - name: Get latest version from npm
-        id: npm_version
+        id: get_version
         run: |
-          # Pega a última versão publicada no npm (ou usa 0.0.0 se não existir)
-          LATEST_VERSION=$(npm view . version 2>/dev/null || echo "0.0.0")
+          # Pega a última versão publicada no npm (se não existir, usa a do package.json)
+          LATEST_VERSION=$(npm view . version 2>/dev/null || node -p "require('./package.json').version")
           echo "version=$LATEST_VERSION" >> $GITHUB_OUTPUT
 
-      - name: Increment pre-release version
+      - name: Generate next pre-release version
         run: |
-          CURRENT_VERSION=${{ steps.npm_version.outputs.version }}
-          # Se a versão já é um pre-release (ex: 1.0.0-1), incrementa o número
+          CURRENT_VERSION=${{ steps.get_version.outputs.version }}
+          
+          # Se a versão já tem um pre-release (ex: 1.0.0-3), extrai o número e incrementa
           if [[ "$CURRENT_VERSION" =~ -([0-9]+)$ ]]; then
             NEXT_NUMBER=$(( ${BASH_REMATCH[1]} + 1 ))
             NEW_VERSION="${CURRENT_VERSION%-*}-$NEXT_NUMBER"
           else
-            # Se não for pre-release, cria um novo (ex: 1.0.0 → 1.0.0-1)
-            NEW_VERSION="${CURRENT_VERSION}-1"
+            # Se não tem pre-release, adiciona -1 (ex: 1.0.0 → 1.0.0-1)
+            NEW_VERSION="$CURRENT_VERSION-1"
           fi
+          
+          # Atualiza a versão no package.json (sem criar tag Git)
           npm version "$NEW_VERSION" --no-git-tag-version
           echo "New version: $NEW_VERSION"
 
