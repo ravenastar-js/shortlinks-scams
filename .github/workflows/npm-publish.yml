@@ -23,37 +23,38 @@ jobs:
           node-version: lts/*
           registry-url: https://registry.npmjs.org/
 
+      - name: Configure Git
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+
       - name: Get base version
         id: get_version
         run: |
-          # Pega a versão base do package.json (removendo qualquer -pre-release existente)
           BASE_VERSION=$(node -p "require('./package.json').version.split('-')[0]")
           echo "base_version=$BASE_VERSION" >> $GITHUB_OUTPUT
 
       - name: Get last pre-release number
         id: get_pre_number
         run: |
-          # Tenta obter a última versão publicada no npm
           LAST_VERSION=$(npm view . version 2>/dev/null || echo "${{ steps.get_version.outputs.base_version }}-0")
-          
-          # Extrai o último número de pré-release ou usa 0 se não existir
           if [[ "$LAST_VERSION" =~ -([0-9]+)$ ]]; then
             PRE_NUMBER=${BASH_REMATCH[1]}
           else
             PRE_NUMBER=0
           fi
-          
           echo "pre_number=$PRE_NUMBER" >> $GITHUB_OUTPUT
 
-      - name: Set new version
+      - name: Set new version and commit
         run: |
-          # Calcula o novo número de pré-release
           NEW_PRE_NUMBER=$(( ${{ steps.get_pre_number.outputs.pre_number }} + 1 ))
           NEW_VERSION="${{ steps.get_version.outputs.base_version }}-$NEW_PRE_NUMBER"
           
-          # Atualiza a versão no package.json
           npm version "$NEW_VERSION" --no-git-tag-version
-          echo "New version: $NEW_VERSION"
+          
+          git add package.json
+          git commit -m "chore: bump version to $NEW_VERSION [skip ci]"
+          git push
 
       - name: Publish to npm
         run: npm publish
