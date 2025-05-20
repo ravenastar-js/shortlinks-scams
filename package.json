@@ -1,6 +1,6 @@
 {
     "name": "ravenastar",
-    "version": "1.0.0-13",
+    "version": "1.0.0-14",
     "description": "BLOCKLIST OF SHORT LINKS COMMONLY SENT BY SCAMMERS ON DISCORD & DIGITAL SECURITY WIKI",
     "main": "src/index.js",
     "scripts": {
